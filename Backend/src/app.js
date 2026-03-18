@@ -10,7 +10,8 @@ app.use(cors({
     origin:["http://music-player-nine-mocha.vercel.app/",
         "https://music-player-nine-mocha.vercel.app/"
     ],
-    methods: ["GET","POST","PUT","DELETE"]
+    methods: ["GET","POST","PUT","DELETE"],
+    credentials:true
 }));
 app.use(express.json());
 
