@@ -6,7 +6,12 @@ const songsRoutes = require("./routes/song.route");
 const app = express();
 
 
-app.use(cors());
+app.use(cors({
+    origin:["http://music-player-nine-mocha.vercel.app/",
+        "https://music-player-nine-mocha.vercel.app/"
+    ],
+    methods: ["GET","POST","PUT","DELETE"]
+}));
 app.use(express.json());
 
 
