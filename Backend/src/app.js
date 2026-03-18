@@ -10,7 +10,12 @@ app.use(cors());
 app.use(express.json());
 
 
+
+
+
+
 app.use("/",songsRoutes)
+
 
 
 module.exports = app;

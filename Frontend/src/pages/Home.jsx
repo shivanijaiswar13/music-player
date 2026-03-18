@@ -14,7 +14,7 @@ const Home = () => {
 
     useEffect(() => {
 
-        axios.get("http://localhost:3000/songs")
+        axios.get("https://music-player-2v14.onrender.com/songs")
 
         
 

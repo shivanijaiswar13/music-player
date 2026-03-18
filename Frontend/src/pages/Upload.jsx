@@ -24,7 +24,7 @@ try {
   setUploadStatus("Uploading...");
 
   const response = await axios.post(
-    "http://localhost:3000/songs",
+    "https://music-player-2v14.onrender.com/songs",
     formData,
     {
       headers: {
