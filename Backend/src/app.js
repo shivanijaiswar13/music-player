@@ -1,7 +1,7 @@
-
-const express = require("express");
-const songsRoutes = require("../src/routes/song.route");
 const cors = require("cors");
+const express = require("express");
+const songsRoutes = require("./routes/song.route");
+
 
 const app = express();
 
